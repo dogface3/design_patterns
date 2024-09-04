@@ -4,24 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c621ecc2-3507-424c-ab0c-33b74735893b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory_method/CityMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory_method/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory_method/Map.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory_method/Tile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory_method/WildernessMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory_method/tiles/Building.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory_method/tiles/Forest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory_method/tiles/Road.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory_method/tiles/Swamp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory_method/tiles/Water.java" afterDir="false" />
+    <list default="true" id="c621ecc2-3507-424c-ab0c-33b74735893b" name="Changes" comment="yes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstract_factory/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstract_factory/buttons/button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstract_factory/buttons/buttonA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstract_factory/buttons/buttonB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstract_factory/checkboxes/checkBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstract_factory/checkboxes/checkBoxA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstract_factory/checkboxes/checkBoxB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstract_factory/factories/Afactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstract_factory/factories/Bfactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstract_factory/factories/UIfactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstract_factory/textfields/textField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstract_factory/textfields/textfieldA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstract_factory/textfields/textfieldB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +51,7 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.Game.executor": "Run",
+    "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -87,8 +85,17 @@
       <option name="presentableId" value="Default" />
       <updated>1724858811551</updated>
       <workItem from="1724858812688" duration="530000" />
-      <workItem from="1724859356145" duration="4574000" />
+      <workItem from="1724859356145" duration="5272000" />
+      <workItem from="1725467365424" duration="3371000" />
     </task>
+    <task id="LOCAL−00001" summary="yes">
+      <option name="closed" value="true" />
+      <created>1724864047583</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1724864047583</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +111,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="yes" />
+    <option name="LAST_COMMIT_MESSAGE" value="yes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
