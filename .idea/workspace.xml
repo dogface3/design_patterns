@@ -5,19 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c621ecc2-3507-424c-ab0c-33b74735893b" name="Changes" comment="yes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstract_factory/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstract_factory/buttons/button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstract_factory/buttons/buttonA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstract_factory/buttons/buttonB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstract_factory/checkboxes/checkBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstract_factory/checkboxes/checkBoxA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstract_factory/checkboxes/checkBoxB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstract_factory/factories/Afactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstract_factory/factories/Bfactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstract_factory/factories/UIfactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstract_factory/textfields/textField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstract_factory/textfields/textfieldA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstract_factory/textfields/textfieldB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Observer/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Observer/Weather.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Observer/observers/obs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Observer/observers/obser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,28 +38,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.Game.executor": "Run",
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/Samue/design_patterns/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Game.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Samue/design_patterns/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Observer.Main" />
+      <module name="design_patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -86,7 +97,9 @@
       <updated>1724858811551</updated>
       <workItem from="1724858812688" duration="530000" />
       <workItem from="1724859356145" duration="5272000" />
-      <workItem from="1725467365424" duration="3371000" />
+      <workItem from="1725467365424" duration="3504000" />
+      <workItem from="1725607874815" duration="841000" />
+      <workItem from="1725959168801" duration="2494000" />
     </task>
     <task id="LOCAL−00001" summary="yes">
       <option name="closed" value="true" />
@@ -95,7 +108,14 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1724864047583</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="yes">
+      <option name="closed" value="true" />
+      <created>1725470812806</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1725470812806</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
