@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c621ecc2-3507-424c-ab0c-33b74735893b" name="Changes" comment="yes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Builder/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Builder/ComputerBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Builder/ComputerDirector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Builder/GamingComputerBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Builder/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Builder/OfficeComputerBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Adapter/CalendarToNewDateAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Adapter/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Adapter/NewDateInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,13 +70,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Builder.Main">
-    <configuration name="Builder.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Builder.Main" />
+  <component name="RunManager" selected="Application.Adapter.Main">
+    <configuration name="Adapter.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Adapter.Main" />
       <module name="design_patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Builder.*" />
+          <option name="PATTERN" value="Adapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Observer.Main" />
+    <configuration name="Builder.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Builder.Main" />
       <module name="design_patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Observer.*" />
+          <option name="PATTERN" value="Builder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Adapter.Main" />
         <item itemvalue="Application.Builder.Main" />
         <item itemvalue="Application.Visitor.Main" />
         <item itemvalue="Application.Proxy.Main" />
         <item itemvalue="Application.Memento.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +174,7 @@
       <workItem from="1730372720988" duration="2542000" />
       <workItem from="1730551410308" duration="8632000" />
       <workItem from="1730964495159" duration="24000" />
-      <workItem from="1731342414978" duration="2404000" />
+      <workItem from="1731342414978" duration="3373000" />
     </task>
     <task id="LOCAL−00001" summary="yes">
       <option name="closed" value="true" />
@@ -243,7 +239,14 @@
       <option name="presentableId" value="LOCAL−00009" />
       <updated>1730560278305</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL−00010" summary="yes">
+      <option name="closed" value="true" />
+      <created>1731345034180</created>
+      <option name="number" value="LOCAL−00010" />
+      <option name="presentableId" value="LOCAL−00010" />
+      <updated>1731345034180</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
