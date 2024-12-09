@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c621ecc2-3507-424c-ab0c-33b74735893b" name="Changes" comment="yes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Adapter/CalendarToNewDateAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Adapter/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Adapter/NewDateInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Bridge/AdvancedRemote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Bridge/BasicRemote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Bridge/Device.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Bridge/GamingConsole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Bridge/GamingRemote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Bridge/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Bridge/Remote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Prototype/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Prototype/Recommendation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Prototype/RecommendationSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,12 +50,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Adapter.Main.executor": "Run",
     "Application.Builder.Main.executor": "Run",
     "Application.Decorator.decorators.Main.executor": "Run",
     "Application.Game.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Memento.Main.executor": "Run",
     "Application.Proxy.Main.executor": "Run",
+    "Application.RecommendationSystem.executor": "Run",
     "Application.Singleton.Main.executor": "Run",
     "Application.State.Main.executor": "Run",
     "Application.Visitor.Main.executor": "Run",
@@ -70,7 +80,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Adapter.Main">
+  <component name="RunManager">
     <configuration name="Adapter.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Adapter.Main" />
       <module name="design_patterns" />
@@ -97,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Memento.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Memento.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bridge.Main" />
       <module name="design_patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Memento.*" />
+          <option name="PATTERN" value="Bridge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Adapter.Main" />
         <item itemvalue="Application.Builder.Main" />
         <item itemvalue="Application.Visitor.Main" />
         <item itemvalue="Application.Proxy.Main" />
-        <item itemvalue="Application.Memento.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +184,10 @@
       <workItem from="1730372720988" duration="2542000" />
       <workItem from="1730551410308" duration="8632000" />
       <workItem from="1730964495159" duration="24000" />
-      <workItem from="1731342414978" duration="3373000" />
+      <workItem from="1731342414978" duration="3527000" />
+      <workItem from="1732011424597" duration="2783000" />
+      <workItem from="1732014346996" duration="1233000" />
+      <workItem from="1733740154683" duration="2153000" />
     </task>
     <task id="LOCAL−00001" summary="yes">
       <option name="closed" value="true" />
@@ -246,7 +259,14 @@
       <option name="presentableId" value="LOCAL−00010" />
       <updated>1731345034180</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL−00011" summary="yes">
+      <option name="closed" value="true" />
+      <created>1731345888678</created>
+      <option name="number" value="LOCAL−00011" />
+      <option name="presentableId" value="LOCAL−00011" />
+      <updated>1731345888678</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
