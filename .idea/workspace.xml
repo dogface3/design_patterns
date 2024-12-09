@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c621ecc2-3507-424c-ab0c-33b74735893b" name="Changes" comment="yes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Bridge/AdvancedRemote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Bridge/BasicRemote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Bridge/Device.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Bridge/GamingConsole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Bridge/GamingRemote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Bridge/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Bridge/Remote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Prototype/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Prototype/Recommendation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Prototype/RecommendationSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Iterator/FibonacciIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Iterator/FibonacciSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Iterator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Iterator/Sequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +74,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Iterator.Main">
     <configuration name="Adapter.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Adapter.Main" />
       <module name="design_patterns" />
@@ -107,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bridge.Main" />
+    <configuration name="Iterator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Iterator.Main" />
       <module name="design_patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Bridge.*" />
+          <option name="PATTERN" value="Iterator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Proxy.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Proxy.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bridge.Main" />
       <module name="design_patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Proxy.*" />
+          <option name="PATTERN" value="Bridge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Iterator.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Adapter.Main" />
         <item itemvalue="Application.Builder.Main" />
         <item itemvalue="Application.Visitor.Main" />
-        <item itemvalue="Application.Proxy.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +181,7 @@
       <workItem from="1731342414978" duration="3527000" />
       <workItem from="1732011424597" duration="2783000" />
       <workItem from="1732014346996" duration="1233000" />
-      <workItem from="1733740154683" duration="2153000" />
+      <workItem from="1733740154683" duration="3878000" />
     </task>
     <task id="LOCAL−00001" summary="yes">
       <option name="closed" value="true" />
@@ -266,7 +260,14 @@
       <option name="presentableId" value="LOCAL−00011" />
       <updated>1731345888678</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL−00012" summary="yes">
+      <option name="closed" value="true" />
+      <created>1733742490467</created>
+      <option name="number" value="LOCAL−00012" />
+      <option name="presentableId" value="LOCAL−00012" />
+      <updated>1733742490467</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
